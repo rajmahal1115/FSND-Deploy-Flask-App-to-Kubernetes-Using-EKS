@@ -13,6 +13,7 @@ EMAIL = 'wolf@thedoor.com'
 PASSWORD = 'huff-puff'
 
 
+
 @pytest.fixture
 def client():
     os.environ['JWT_SECRET'] = SECRET
